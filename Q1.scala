@@ -7,10 +7,10 @@ object Primes extends App{
 	}
 	
 	def prime(m:Int, n:Int=2):Boolean =n match{
-	case x if(m==x)=>true
-	case x if (GCD(m,x)>1)=>false
-	case x => prime(m,x+1)
-}
+		case x if(m==x)=>true
+		case x if (GCD(m,x)>1)=>false
+		case x => prime(m,x+1)
+	}
 
 println("Enter a number : ")
 val a=scala.io.StdIn.readInt()
