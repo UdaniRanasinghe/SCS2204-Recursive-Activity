@@ -12,7 +12,7 @@ object Primes extends App{
 		case x => prime(m,x+1)
 	}
 
-println("Enter a number : ")
-val a=scala.io.StdIn.readInt()
-println(prime(a))
+	println("Enter a number : ")
+	val a=scala.io.StdIn.readInt()
+	println(prime(a))
 }
